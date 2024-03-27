@@ -20,13 +20,25 @@ The project consists of the following components:
 ## How to Use
 1. Clone or download the repository containing the To Do App project files.
 2. Set up a Python virtual environment for the project (optional but recommended).
-3. Install Django and other dependencies listed in the project's requirements.
-  (pip install -r requirements.txt)
-4. Navigate to the project directory containing the manage.py file.
-5. Run database migrations to create the necessary tables in the database using the following command:
-  (python manage.py migrate)
-6. Start the Django development server using the following command:
-  (python manage.py runserver)
+3. Install Django and other dependencies listed in the project's requirements file using the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. Configure the Django settings according to your environment, including database settings and secret key.
+5. Run database migrations to create the necessary tables in the database:
+
+   ```bash
+   python manage.py migrate
+   ```
+
+6. Start the Django development server:
+
+   ```bash
+   python manage.py runserver
+   ```
+
 7. Access the ToDoApp through a web browser at the provided URL.
    
 ## Possible Updates or Contributions
